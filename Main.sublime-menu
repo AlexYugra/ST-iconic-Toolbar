@@ -1,81 +1,87 @@
-[
-    {
-        "id": "help"
-    },
-    {
-        "id": "folders", "caption": "-"
-    },
-
-    {
-        "command": "new_file",
-        "caption": ""},
-    {
-        "command": "save",
-        "caption": ""},
-    {
-        "command": "clone_file",
-        "caption": "♋"},
-    {
-        "command": "jump_back",
-        "caption": "◀"},
-    {
-        "command": "jump_forward",
-        "caption": "▶"},
-    {
-        "command": "expand_selection",
-        "args": {
-            "to": "scope"
-        },
-        "caption": "♒"
-    },
-    {
-        "command": "fold",
-        "caption": "〽"
-    },
-    {
-        "command": "unfold_all",
-        "caption": "〰"
-    },
-    {
-        "command": "toggle_bookmark",
-        "caption": "★"
-    },
-    {
-        "command": "next_bookmark",
-        "caption": "➽"
-    },
-    {
-        "caption": "♊",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 0.5, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-        }
-    },
-    {
-        "caption": "♈",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [[0, 0, 1, 1]]
-        }
-    },
-    {
-        "command": "open_url",
-        "caption":"☢",
-        "args": {
-            "url": "https://github.com/SublimeText/Issues/issues"
-        }
-    },
-    {
-        "command": "open_file",
-        "caption":"",
-        "args": {
-            "file": "${packages}/User/Preferences.sublime-settings"
-        }
+[{
+    "id": "help"
+}, {
+    "id": "folders",
+    "caption": "-"
+}, {
+    "command": "new_file",
+    "font_face": "Segoe UI Symbol",
+    "caption": "➕",
+}, {
+    "command": "save",
+    "caption": "✔",
+}, {
+    "command": "save_all",
+    "font_face": "Segoe UI Symbol",
+    "caption": "",
+}, {
+    "command": "open_file",
+    "font_face": "Segoe UI Symbol",
+    "caption": "",
+    "args": {
+        "file": "${packages}/User/Preferences.sublime-settings",
     }
-]
+}, {
+    "command": "clone_file",
+    "font_face": "Segoe UI Symbol",
+    "caption": ""
+}, {
+    "command": "jump_forward",
+    "caption": "↪"
+}, {
+    "command": "jump_back",
+    "caption": "↩"
+}, {
+    "command": "expand_selection",
+    "args": {
+        "to": "scope"
+    },
+    "caption": "♒"
+}, {
+    "command": "fold",
+    "font_face": "Segoe UI Symbol",
+    "caption": ""
+}, {
+    "command": "unfold_all",
+    "font_face": "Segoe UI Symbol",
+    "caption": ""
+}, {
+    "command": "toggle_bookmark",
+    "caption": "⌦",
+    "alt": "togglebookmark",
+}, {
+    "command": "next_bookmark",
+    "caption": "➽",
+}, {
+    "caption": "▎",
+    "command": "set_layout",
+    "args": {
+        "cols": [0.0, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [
+            [0, 0, 1, 1]
+        ]
+    }
+}, {
+    "caption": "┃┃",
+    "command": "set_layout",
+    "args": {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [
+            [0, 0, 1, 1],
+            [1, 0, 2, 1]
+        ]
+    }
+}, {
+    "command": "open_url",
+    "font_face": "Segoe UI Symbol",
+    "caption": "",
+    "args": {
+        "url": "https://github.com/SublimeText/Issues/issues"
+    },
+}, {
+    "command": "Back_in_USSR!",
+    "font_face": "Segoe UI Symbol",
+    "caption": "☭",
+}, ]
