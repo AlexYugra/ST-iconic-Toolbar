@@ -18,7 +18,7 @@ At this moment icons work well, but a few issues would be greatfull to perform:
 
 ## View 2
 
-![](scrns/Iconic2.PNGg)
+![](scrns/Iconic2.PNG)
 
 
 3.	Like a best option the icon’s will be much better viewed if render from url’s like small png, svg images. Font symbols now looks like from XX century. However, even adding colors to symbols will improve. Can you help (advise)?
