@@ -3,8 +3,10 @@
 Have idea to provide users toolbar such as “submenu” with most common commands shaped like an icons (buttons). Work on OS-W10 so will check performance in it, however might be possible to adopt for other OS later?
 
 [Idea from](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615)
+http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615
 
 [Forked from](https://github.com/titoBouzout/Toolbar)
+https://github.com/titoBouzout/Toolbar
 
 At this moment icons work well, but a few issues would be greatfull to perform:
 1.	Nice to get a tooltip like “Save file” when hover mouse above the button. "SOS" or "Help" wellcome ;
