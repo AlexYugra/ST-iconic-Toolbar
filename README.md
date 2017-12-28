@@ -1,49 +1,20 @@
-# Toolbar
+﻿# ST Iconic toolbar win10
 
-Provides some handy buttons at the end of the main menu using emojis simulating a toolbar. For Sublime Text, See: http://www.sublimetext.com/
+Have idea to provide users toolbar such as “submenu” with most common commands shaped like an icons (buttons). Work on OS-W10 so will check performance in it, however might be possible to adopt for other OS later?
 
-For the original idea please refer to http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615
+##Idea from
+http://www.sublimetext.com/forum/viewtopic.php?f=2&t=15850#p59615
 
-## Installation
-
-Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of ST.
-
-
-## Preview
-
-![](http://i.imgur.com/ypF57Xw.png)
-
-## Buttons
-
-  * ✙ - New file
-  * ✔ - Save file
-  * ♋ - Clone file
-  * -
-  * ◀ - Jump Back (go to previous position in history)
-  * ▶ - Jump Forward (go to next position in history)
-  * -
-  * ♒ - Expand Selection to Scope
-  * -
-  * 〽 - Fold Selection
-  * 〰 - Unfold All
-  * -
-  * ★ - Toggle Bookmark
-  * ➽ - Go to Next Bookmark
-  * -
-  * ♊ - Set layout to two columns
-  * ♈ - Set layout to one column
-  * -
-  * ☢ - Report a bug in Sublime Text ( https://github.com/SublimeTextBugs/Issues/issues )
-  * 🔧 - Open Preferences
-
-Oh, well, I give meanings to a very short list of emojis, if you think it can be improved or wish to change/add/remove something, please feel free to suggest it. The complete list of emojis that rendered something in Windows 7, are as follows:
-
-### © ® ღ † ‼ ⁉ ™ ↔ ↕ ↖ ↗ ↘ ↙ ↩ ↪ ↶ ↷ ⇒ ⋆ ⌘ ⏎ Ⓜ ▪ ▫ ▶ ◀ ☀ ☁ ☂ ☃ ★ ☆ ☎ ☑ ☜ ☝ ☟ ☠ ☢ ☣ ☤ ☥ ☫ ☬ ☭ ☮ ☯ ☸ ☹ ☺ ☻ ☾ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♛ ♜ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♪ ♫ ♻ ⚘ ⛎ ✂ ✆ ✈ ✉ ✌ ✏ ✒ ✔ ✖ ✞ ✟ ✠ ✧ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✳ ✴ ✵ ✼ ❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❤ ❥ ❦ ➡ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➲ ➳ ➵ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ⤴ ⤵ 〰 〽 ツ ㊗ ㊙
-
-## Windows Emojis
-
-On Windows 7 you may need to download the font "Segoe UI symbol" ( http://support.microsoft.com/kb/2729094 ) and then change your Windows Font from "Segoe UI" to "Segoe UI Symbol"
-
-## Source-code
-
+##Forked from
 https://github.com/titoBouzout/Toolbar
+
+At this moment icons work well, but a few issues would be greatfull to perform:
+1.	Nice to get a tooltip like “Save file” when hover mouse above the button. "SOS" or "Help" wellcome ;
+2.	Nice to insert this toolbar in second row like submenu, #preview2 which possible to set this toolbar either “visible” or not independent from main toolbar. The last button “toggle toolbar” presently hide all the menu together with this. The idea is to use two menus, only how to realize – no idea in this moment;
+3.	Like a best option the icon’s will be much better viewed if render from url’s like small png, svg images. Font symbols now looks like from XX century. However, even adding colors to symbols will improve. Can you help (advise)?
+4.	Generally I’m very interested Sublime and gonna learn about it’s architecture, built-in system and Core. Please direct me where to start from, for understanding a bit dipper that use of package control.
+
+Fork is here
+https://github.com/AlexYugra/Toolbar/tree/win10-rearranged-commands
+
+☭☭☭☭

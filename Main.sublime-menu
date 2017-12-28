@@ -48,7 +48,7 @@
 }, {
     "command": "toggle_bookmark",
     "caption": "⌦",
-    "alt": "togglebookmark",
+    //"alt": "togglebookmark",
 }, {
     "command": "next_bookmark",
     "caption": "➽",
@@ -81,7 +81,11 @@
         "url": "https://github.com/SublimeText/Issues/issues"
     },
 }, {
-    "command": "Back_in_USSR!",
+    "command": "Preferences",
     "font_face": "Segoe UI Symbol",
-    "caption": "☭",
-}, ]
+    "caption": "🔨",
+}, {
+    "command": "toggle_menu",
+    "font_face": "Segoe UI Symbol",
+    "caption": "",
+}]
