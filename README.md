@@ -10,7 +10,7 @@ https://github.com/titoBouzout/Toolbar
 
 ## View 1 
 
-[scrns/Iconic1.png]
+![](scrns/Iconic1.PNG)
 
 At this moment icons work well, but a few issues would be greatfull to perform:
 1.	Nice to get a tooltip like “Save file” when hover mouse above the button. "SOS" or "Help" wellcome ;
@@ -18,7 +18,8 @@ At this moment icons work well, but a few issues would be greatfull to perform:
 
 ## View 2
 
-[scrns/Iconic2.png]
+![](scrns/Iconic2.PNGg)
+
 
 3.	Like a best option the icon’s will be much better viewed if render from url’s like small png, svg images. Font symbols now looks like from XX century. However, even adding colors to symbols will improve. Can you help (advise)?
 4.	Generally I’m very interested Sublime and gonna learn about it’s architecture, built-in system and Core. Please direct me where to start from, for understanding a bit dipper that use of package control.
